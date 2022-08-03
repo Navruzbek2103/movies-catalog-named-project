@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <link rel="stylesheet" href="./css/main.css">
+  <title>Movies catalog</title>
+</head>
+<body>
+  <main class="main">
+    <section class="section mb-5">
+      <div class="container contain">
+        <div class="row">
+          <h2 class="section-title text-center my-4">Movies catalog</h2>
+          <div class="col-4 ">
+            <form class="mb-4">
+              <div class="mb-4">
+                <input type="text" class="form-control" placeholder="ave">
+              </div>
+              <div class="mb-4">
+                <input type="text" class="form-control" placeholder="5">
+              </div>
+              <div class="mb-4">
+                <select class="form-select">
+                  <option>All</option>
+                </select>
+              </div>
+              <div class="mb-4">
+                <select class="form-select">
+                  <option>Rating (high to low)</option>
+                </select>
+              </div>
+              <button type="submit" class="w-100 btn btn-primary">Search</button>
+            </form>
+            <h3 class="section-subtitle mb-2">Bookmarked movies</h3>
+            <ul class="list list-unstyled">
+              <li class="list-item border py-3 px-4">
+                <h4 class="item-heading mb-2">Avengers: Infinity War</h4>
+                <form>
+                  <button type="button" class="btn btn-danger">Remove</button>
+                </form>
+              </li>
+
+              <li class="list-item border py-3 px-4">
+                <h4 class="item-heading mb-2">The Avengers</h4>
+                <form>
+                  <button type="button" class="btn btn-danger">Remove</button>
+                </form>
+              </li>
+
+              <li class="list-item border py-3 px-4">
+                <h4 class="item-heading mb-2">12 Years a Slave</h4>
+                <form>
+                  <button type="button" class="btn btn-danger">Remove</button>
+                </form>
+              </li>
+            </ul>
+          </div>
+          <div class="section-left col-8">
+            <h3 class="section-left-title mb-2">Search result: 39</h3>
+            <div class="alert alert-info mb-3" role="alert">
+              Use the form on the left to search for a movie
+            </div>
+            <ul class="section-left-list list-unstyled mb-5 row">
+              <li class="section-left-list-item col-6">
+                <div class="card" style="width: 23rem;">
+                  <img src="./images/Avengers-one.jpg" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h4 class="card-title">Avengers: Infinity War</h4>
+                    <div class="calendar d-flex align-items-center mb-3">
+                      <img src="./images/calendar.jpg" alt="star icon" class="calendar-img me-2">
+                      <span class="calendar-span">2018</span>
+                    </div>
+                    <div class="star d-flex align-items-center mb-3">
+                      <img src="./images/star.jpg" alt="star icon" class="star-img me-2">
+                      <span class="star-span">8.7</span>
+                    </div>
+                    <div class="button-group d-flex mx-auto justify-content-between">
+                      <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+                      <button type="button" class="btn btn-outline-info">More info</button>
+                      <button type="button" class="btn btn-outline-success">Bookmark</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+
+              <li class="section-left-list-item col-6">
+                <div class="card" style="width: 23.5rem;">
+                  <img src="./images/Avengers-two.jpg" class="card-img-top" alt="image">
+                  <div class="card-body">
+                    <h4 class="card-title">The Avengers</h4>
+                    <div class="calendar d-flex align-items-center mb-3">
+                      <img src="./images/calendar.jpg" alt="star icon" class="calendar-img me-2">
+                      <span class="calendar-span">2012</span>
+                    </div>
+                    <div class="star d-flex align-items-center mb-3">
+                      <img src="./images/star.jpg" alt="star icon" class="star-img me-2">
+                      <span class="star-span">8.1</span>
+                    </div>
+                    <div class="button-group d-flex mx-auto justify-content-between">
+                      <button type="button" class="btn btn-outline-primary">Watch trailer</button>
+                      <button type="button" class="btn btn-outline-info">More info</button>
+                      <button type="button" class="btn btn-outline-success">Bookmark</button>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ul>
+            <div class="pagination-box mx-auto d-flex">
+              <ul class="pagination mx-auto">
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+
+
+
+  <script src="./js/bootstrap.min.js"></script>
+</body>
+</html>
